@@ -20,13 +20,15 @@ password: admin
 ```
 git clone https://github.com/SanishGrg/simple-larablog.git simple-larablog
 cd simple-larablog
-composer install
 cp .env.example .env
+
+// Then set database credentials in .env file
+
+composer install
 php artisan key:generate
 php artisan migrate
 php artisan db:seed
 ```
-
 ## Author
 
 - [Sanish Gurung](https://sanishgurung.com.np)
