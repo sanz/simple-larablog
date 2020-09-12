@@ -18,7 +18,7 @@ password: admin
 ## Steps for Installtion
 
 ```
-git clone https://github.com/SanishGrg/simple-larablog.git simple-larablog
+git clone https://github.com/sanz/simple-larablog.git simple-larablog
 cd simple-larablog
 cp .env.example .env
 
